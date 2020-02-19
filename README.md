@@ -14,41 +14,29 @@
 ## Examples
 
 ### Finding the first element matching a class
-
 <p>
   In this example, the first element in the document with the class "myclass" is returned:
 </p>
 
-<p>
-  <code>
-    const el = ls(".myclass");
-  </code>
-</p>
+```
+const el = ls(".myclass");
+```
 
 ### A more complex selector
-
-<p>
-<code>
+```
 const el = ls("div.user-panel.main input[name='login']");
-</code>
-</p>
+```
 
 ### Obtaining a list of matches
 
 <p>
-  Here, we get a list of <p> elements whose immediate parent element is a <div> with the class highlighted and which are located inside a container whose ID is test.
+  Here, we get a list of **p** elements whose immediate parent element is a <div> with the class highlighted and which are located inside a container whose ID is test.
 </p>
 
-<p>
-  <code>
-    const container = ls("#test"); 
-    </code>
-</p>
-<p>
-  <code>
-    const matches = container.ls("div.highlighted > p");
-  </code>
-</p>
+```
+const container = ls("#test"); 
+const matches = container.ls("div.highlighted > p");
+```
 
 ### Accessing the matches
 
@@ -59,13 +47,7 @@ Otherwise, you can simply use standard array notation to access the contents of 
 
 </p>
 
-<p>
-    <code>
-      const users = ls(".users");
-    </code>
- </p>
- <p>
-    <code>
-      users.forEach(userItem => console.log(userItem));
-  </code>
-</p>
+```
+const users = ls(".users");      
+users.forEach(userItem => console.log(userItem));
+```
