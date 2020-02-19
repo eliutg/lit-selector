@@ -41,7 +41,7 @@ const el = ls("div.user-panel.main input[name='login']");
 
 <p>
   <code>
-    const container = ls("#test");
+    const container = ls("#test"); <br/>
     const matches = container.ls("div.highlighted > p");
   </code>
 </p>
@@ -56,12 +56,12 @@ Otherwise, you can simply use standard array notation to access the contents of 
 </p>
 
 <p>
-  <code>
-    const users = ls(".users");
-
-    users.forEach((userItem) => {
-      console.log(userItem);
-    });
-
+    <code>
+      const users = ls(".users");
+    </code>
+ </p>
+ <p>
+    <code>
+      users.forEach(userItem => console.log(userItem));
   </code>
 </p>
