@@ -2,8 +2,8 @@
 
 <p>LitSelector is a small and fast JavaScript library. It allows to select elements of the DOM in a very easy and efficient way.</p>
 
-[![GitHub issues](https://img.shields.io/github/issues/regdev18/lit-selector)](https://github.com/regdev18/lit-selector/issues)
-[![GitHub license](https://img.shields.io/github/license/regdev18/lit-selector)](https://github.com/regdev18/lit-selector/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/eliutg/lit-selector)](https://github.com/eliutg/lit-selector/issues)
+[![GitHub license](https://img.shields.io/github/license/eliutg/lit-selector)](https://github.com/eliutg/lit-selector/blob/master/LICENSE)
 
 ## Usage
 
